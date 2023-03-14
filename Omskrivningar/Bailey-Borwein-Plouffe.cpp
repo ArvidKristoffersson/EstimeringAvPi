@@ -1,3 +1,9 @@
+/*
+Max tid för exekvering på en sekund är ungefär 15 000 000
+Då får den 16 siffror rätt
+*/
+
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -19,15 +25,12 @@ int main(){
     int n; cin >> n;
 
     cout << fixed << setprecision(20);
-
-    for (int j = 1; j <= n; j++){
-        cout << j << ":       ";
-        double sum = 0;
-        for (int i = 0; i <= j; i++){
-            sum += f(i);
-        }
-        cout << sum << endl;
+    
+    double sum = 0;
+    
+    for (int i = 0; i <= n; i++){
+        sum += f(i);
     }
-
+   
     return 0;
 }
