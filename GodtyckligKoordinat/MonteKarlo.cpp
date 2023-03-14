@@ -1,3 +1,8 @@
+/*
+Max input för exekvering på en sekund är 5000
+Då får den rätt på 4 siffror
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
