@@ -1,5 +1,5 @@
 /*
-Max input för exekvering under 1 sekund är ungefär 200000
+Max input för exekvering under 1 sekund är ungefär 2000000
 Då får den ungefär 7 siffror rätt
 */
 
