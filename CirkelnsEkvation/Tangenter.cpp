@@ -1,3 +1,8 @@
+/*
+Max input för exekvering på en sekund är 6 000 000
+Då får den rätt på 6 siffror
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
