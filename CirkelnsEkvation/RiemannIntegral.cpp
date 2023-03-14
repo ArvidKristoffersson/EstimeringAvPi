@@ -1,5 +1,5 @@
 /*
-Max tid för exekvering på en sekund är ungefär 50 000 000
+Max input för exekvering på en sekund är ungefär 50 000 000
 Då får den ungefär 9 siffror rätt
 */
 
