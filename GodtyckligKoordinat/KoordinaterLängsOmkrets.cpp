@@ -1,3 +1,9 @@
+/*
+Max input för exekvering under 1 sekund är ungefär 200000
+Då får den ungefär 7 siffror rätt
+*/
+
+
 #include <iostream>
 #include <cmath>
 #include <vector>
