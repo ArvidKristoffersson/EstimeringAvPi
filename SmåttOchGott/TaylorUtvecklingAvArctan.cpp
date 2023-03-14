@@ -1,3 +1,9 @@
+/*
+Max input för exekvering på en sekund är ungefär 2 000 000 000
+Då får den 9 siffror rätt
+*/
+
+
 #include <iostream>
 #include <iomanip>
 
