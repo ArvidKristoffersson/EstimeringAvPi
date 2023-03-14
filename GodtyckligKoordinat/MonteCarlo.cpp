@@ -30,12 +30,8 @@ int main(){
     for (int i = 0; i < n; i++){
         double x = (double) rand()/RAND_MAX;
         double y = (double) rand()/RAND_MAX;
-        //cout << x << " " << y << endl;
         if (inomEnhets(x, y))inside++;
         tot++;
-        if (i%100000000 == 0){
-            cout << i << ": " << (inside/tot)*4.0 << endl;
-        }
     }
 
     cout << (inside/tot)*4.0 << endl;
