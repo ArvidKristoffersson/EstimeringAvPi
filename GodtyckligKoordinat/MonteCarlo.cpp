@@ -1,3 +1,7 @@
+/*
+Max input för exekvering på en sekund är ungefär 15 000 000
+Då får den generellt sätt 4 siffror rätt
+*/
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -22,9 +26,7 @@ int main(){
     scoobydoobydoo();
     int n; cin >> n;
     cout << fixed << setprecision(15);
-
     double inside = 0, tot = 0;
-
     srand( (unsigned)time( NULL ) );
  
     for (int i = 0; i < n; i++){
