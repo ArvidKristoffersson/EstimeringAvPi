@@ -1,3 +1,8 @@
+/*
+Max tid för exekvering på en sekund är ungefär 50 000 000
+Då får den ungefär 9 siffror rätt
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -20,7 +25,7 @@ double f(double x){
 int main(){
     scoobydoobydoo();
     double n; cin >> n;
-    int from, to; cin >> from >> to;
+    int from = -1, to = 1;
 
     cout << fixed << setprecision(20);
 
