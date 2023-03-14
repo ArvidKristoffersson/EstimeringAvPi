@@ -1,3 +1,6 @@
+#Max input är ungefär 15, python kan inte hantera över 15!
+#Då får den typ 30 decimaler rätt
+
 from decimal import *
 import math
 dp = [1]
