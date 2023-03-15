@@ -11,5 +11,5 @@ int main(){
   long long n; cin >> n;
   cout << 3 << endl;
 
-  return 0;
+  _Exit(0);
 }
