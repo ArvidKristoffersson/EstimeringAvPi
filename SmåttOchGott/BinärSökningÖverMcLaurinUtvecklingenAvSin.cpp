@@ -1,3 +1,8 @@
+/*
+Max input för exekvering på under en sekund är ungefär 20
+Den får då rätt på 14 siffror
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -40,7 +45,7 @@ double binarySearch(int grad){
     double b = 1;
 
     while (a < b){
-        if (b-a < 1e-12)break;
+        if (b-a < 1e-15)break;
         double k = (a+b)/2.0;
         if (McLaurin(k, grad) >= 0.5){
             ret = k;
@@ -57,8 +62,10 @@ int main(){
     scoobydoobydoo();
     dp[0] = 1;
 
+    int n; cin >> n;
+
     cout << fixed << setprecision(20);
-    cout << binarySearch(11) << endl;
+    cout << binarySearch(n) << endl;
 
 
 
