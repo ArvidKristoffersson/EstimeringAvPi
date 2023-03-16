@@ -1,3 +1,6 @@
+#Max input för exekvering under 1 sekund är ungefär 10 000 000
+#Då får den rätt på typ 5 siffror
+
 a = int(input())
 sist=0
 for i in range(a):
